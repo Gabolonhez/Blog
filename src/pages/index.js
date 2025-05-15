@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import { getPosts } from '../src/utils/mdx-utils';
+import { getPosts } from '../utils/mdx-utils';
 
-import Footer from '../src/components/Footer';
-import Header from '../src/components/Header';
-import Layout, { GradientBackground } from '../src/components/Layout';
-import ArrowIcon from '../src/components/ArrowIcon';
-import { getGlobalData } from '../src/utils/global-data';
-import SEO from '../src/components/SEO';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Layout, { GradientBackground } from '../components/Layout';
+import ArrowIcon from '../components/ArrowIcon';
+import { getGlobalData } from '../utils/global-data';
+import SEO from '../components/SEO';
 
 export default function Index({ posts, globalData }) {
   return (
