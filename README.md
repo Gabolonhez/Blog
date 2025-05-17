@@ -1,9 +1,8 @@
 # Blog
-![image](https://github.com/user-attachments/assets/7e16385d-86db-40ad-b1c1-fa7a0d091aa3)
+![image](https://github.com/user-attachments/assets/cbf4e8c9-d97d-4c49-baee-cf076d13a1a7)
 
 ## 📑 Descrição
 Página de blog que permite ver posts.
-
 
 ## 🎯 Funcionalidades
 - [X] : Permite clicar e visualizar posts.
