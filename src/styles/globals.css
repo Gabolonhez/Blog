@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+p,
 h1,
 h2,
 h3,
@@ -9,6 +10,9 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 body {
