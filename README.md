@@ -1,4 +1,21 @@
-![Netlify Next.js Blog Template designed by Bejamas](github-banner.svg)
+# Blog
+![image](https://github.com/user-attachments/assets/7e16385d-86db-40ad-b1c1-fa7a0d091aa3)
+
+## 📑 Descrição
+Página de blog que permite ver posts.
+
+
+## 🎯 Funcionalidades
+- [X] : Permite clicar e visualizar posts.
+- [X] : Permite alterar o tema para escuro/claro.
+
+## 💻 Tecnologias
+- `Next.js`
+- `Javascript`
+- `Supabase`
+- `API`
+- `HTML`
+- `CSS`
 
 [![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nextjs-blog-theme)
 
