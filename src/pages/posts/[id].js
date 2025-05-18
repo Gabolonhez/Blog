@@ -34,18 +34,19 @@ export default function PostPage({
             {posts?.title}
           </h1>
           {posts?.description && (
-            <p className="text-xl mb-4">{posts?.description}</p>
+            <p className="text-xl mb-4 text-center">{posts?.description}</p>
           )}
         </header>
         <main>
-          <article>
+          <article className="text-center mt-10">
             {posts?.body} 
           </article>
           <br/>
-          <article className="prose dark:prose-dark text-center">
-            {posts.created_at}
-          </article>
+          <img className="mt-5 flex-row justify-self-center" src={posts.image_url}></img>
         </main>
+      </article>
+      <article className="prose dark:prose-dark mt-10">
+            {posts.created_at}
       </article>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
