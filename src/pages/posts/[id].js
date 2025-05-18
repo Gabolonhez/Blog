@@ -38,8 +38,12 @@ export default function PostPage({
           )}
         </header>
         <main>
-          <article className="prose dark:prose-dark">
-            {posts?.body}
+          <article>
+            {posts?.body} 
+          </article>
+          <br/>
+          <article className="prose dark:prose-dark text-center">
+            {posts.created_at}
           </article>
         </main>
       </article>
